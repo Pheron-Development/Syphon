@@ -1,0 +1,13 @@
+name: Syphon
+version: '${project.version}'
+main: lol.vifez.syphon.Syphon.Syphon
+authors: [Kira Development]
+description: Free open source essential command plugin
+website: kiradev.xyz
+commands:
+  fly:
+  feed:
+  heal:
+  gms:
+  gmc:
+  syphon:
