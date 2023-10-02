@@ -20,7 +20,6 @@ public class Syphon extends JavaPlugin implements CommandExecutor {
         getCommand("feed").setExecutor(this);
         getCommand("fly").setExecutor(this);
 
-        // Startup message
         ConsoleCommandSender console = getServer().getConsoleSender();
         console.sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.AQUA + "Syphon" + ChatColor.DARK_GRAY + "]" + ChatColor.AQUA + " Commands loaded.");
     }
